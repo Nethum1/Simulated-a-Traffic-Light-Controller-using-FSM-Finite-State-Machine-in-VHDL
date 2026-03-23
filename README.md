@@ -1,7 +1,7 @@
 # Simulated-a-Traffic-Light-Controller-using-FSM-Finite-State-Machine-in-VHDL
 An FPGA-based traffic light controller using VHDL manages a highway–farm road intersection. A sensor detects vehicles on the farm road. Normally, the highway stays GREEN and the farm road RED. When a vehicle is detected, the highway turns YELLOW for 3 seconds, then RED for 10 seconds, allowing safe crossing.
 
-<img width="1369" height="784" alt="p5" src="https://github.com/user-attachments/assets/db1e5964-5140-4559-891c-cd2edcc95594" />
+<img width="1369" height="692" alt="p5" src="https://github.com/user-attachments/assets/40bfd45e-b81c-42ac-b031-c4c4f90bf9c7" />
 
 
 A VHDL-based traffic light controller is designed for an FPGA to manage an intersection between a highway and a farm road. The system incorporates a sensor on the farm road to detect the presence of vehicles. Under normal conditions, the highway signal remains GREEN while the farm road stays RED. When a vehicle is detected on the farm road, the controller initiates a sequence where the highway signal changes to YELLOW for 3 seconds, followed by RED for 10 seconds, allowing safe crossing. After this interval, the system returns to its default state, ensuring efficient traffic flow and safety.
